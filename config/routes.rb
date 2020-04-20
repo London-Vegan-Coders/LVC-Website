@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'member/index'
+  get 'member/show'
   get 'welcome/index'
   
   root 'welcome#index'
