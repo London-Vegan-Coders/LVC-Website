@@ -1,0 +1,11 @@
+<section class="user">
+  <%= profile_image(@user) %>
+  <h1><%= @user.name %></h1>
+  <h2> <%= @user.username %></h2>
+  <h2><%= mail_to(@user.email) %></h2>
+  <p><%= @user.about %></p>
+  <div class="actions"><%= link_to "Edit Account", edit_user_path(@user),
+    class: "button edit" %></div>
+  <div class="actions"><%= link_to "Delete Account", @user, method: :delete, data: { confirm: "Permanently delete you account?" },
+  class: "button delete" %></div>
+</section>
