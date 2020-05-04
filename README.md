@@ -47,7 +47,7 @@ I'm not sure what you need on a windows or Linux laptop. Follow one of the links
 1. Clone the repository: git clone git@github.com:London-Vegan-Coders/LVC-Website.git
 2. Go into the project: cd LVC-Website
 3. Run bundler: bundle install
-4. Run yarn or npm to install packages: yarn (or if you use npm just run: npm)
+4. Run yarn or npm to install packages: yarn (or if you use npm just run: npm install)
 5. Run the following rails commands to create the database:
     rails db:setup
     rails db:migrate
