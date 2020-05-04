@@ -31,6 +31,7 @@ The following websites have great tutorials for setting up your device to work o
 !!! Setting up a device can be quite frustrating. Especially when you're new to coding or new to a new operating system. Another thing is that different versions of the same operating system can have different problems. Don't hesitate to ask questions when you're not sure or when you run into an issue. :)
 
 TL;DR
+
 In short make sure you have the following things after setting up your device (for Mac OS):
 1. Installed the command line tools on the terminal. Basically run this command in terminal: xcode-select --install
 2. A package manager like Homebrew <-- which is a package manager for Mac.
