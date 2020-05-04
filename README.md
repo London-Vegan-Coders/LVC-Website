@@ -46,7 +46,6 @@ In short you need the following things:
 5. A node package manager (Yarn or npm) 
 6. A text editor. (Sublime text, VSCode, Atom) (I would suggest VSCode for beginners as it is quite easy to install and extend but try a couple of different ones and stay with the one you prefer)
 7. Bundle (This is a ruby Gem that is helps you download other project specific Ruby Gems)
-8. 
 
 I'm not sure what you need on a windows or Linux laptop. Follow one of the links provided and if you run into any problems let me know and we can figure it out together :)
 
