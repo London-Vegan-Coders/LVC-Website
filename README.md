@@ -3,27 +3,27 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+* Set up with docker:
+install docker and have it turned on ;)
+Run the following commands in terminal:
+1. docker-compose build
+2. docker-compose run web bundle install
+3. docker-compose run web yarn install
+4. docker-compose rails db:create db:migrate
 
-* System dependencies
+The setup above only has to be done once.
+To run the server run the following command in terminal:
+docker-compose up
 
-* Configuration
+The website should be accessable after a few minutes on the following url:
+http://localhost:3000
 
-* Database creation
+To stop the container from running press ctrl-c.
+The following commands will remove the lvc-website containers. 
+docker-compose down
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-* Set up for rails project:
+* Set up without docker:
 The following websites have great tutorials for setting up your device to work on a rails project.
 1. https://github.com/lewagon/setup
 2. http://guides.railsgirls.com/install
