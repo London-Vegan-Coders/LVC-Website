@@ -5,7 +5,8 @@ application up and running.
 
 
 * Set up with docker:
-install docker and have it turned on ;)
+Install docker and have it turned on ;)
+Copy the content from env.sample into the .env file.
 Run the following commands in terminal:
 1. docker-compose build
 2. docker-compose run web bundle install
