@@ -1,7 +1,7 @@
 <header>
-  <nav>
-    <%= link_to "Home", welcome_index_path, class: "button" %>
-    <%= link_to "Meet the team", users_path, class: "button" %>
-    <%= link_to "Sign up", signup_path, class: "button" %>
+  <nav class="navbar">
+    <%= link_to "Home", welcome_index_path, class: "button #{active_link(welcome_index_path)}" %>
+    <%= link_to "Meet the team", users_path, class: "button #{active_link(users_path)}" %>
+    <%= link_to "Sign up", signup_path, class: "button #{active_link(signup_path)}" %>
   </nav>
 </header>
