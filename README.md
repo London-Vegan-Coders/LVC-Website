@@ -13,7 +13,10 @@ Run the following commands in terminal:
 3. docker-compose run web yarn install
 4. docker-compose run web rails db:create db:migrate
 
-The setup above only has to be done once.
+The setup above needs to be done every time a package is updated - first delete the docker image and then follow the above steps:
+1. docker images -a
+2. docker rmi IMAGE_ID
+
 To run the server run the following command in terminal:
 docker-compose up
 
