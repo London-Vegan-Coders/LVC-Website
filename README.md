@@ -11,7 +11,7 @@ Run the following commands in terminal:
 1. docker-compose build
 2. docker-compose run web bundle install
 3. docker-compose run web yarn install
-4. docker-compose rails db:create db:migrate
+4. docker-compose run web rails db:create db:migrate
 
 The setup above only has to be done once.
 To run the server run the following command in terminal:
